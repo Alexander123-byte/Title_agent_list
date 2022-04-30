@@ -1,0 +1,56 @@
+﻿<Window x:Class="RMP__Osina_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RMP__Osina_"
+        mc:Ignorable="d"
+        Title="Agent_List" Height="450" Width="900">
+    <Grid ShowGridLines="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Тип | Наименование агента" Grid.Column="1" Grid.Row="1" FontSize="18" HorizontalContentAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,67"/>
+        <Label Content="10 продаж за год" Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,0,45" FontSize="16" HorizontalContentAlignment="Left"/>
+        <Label Content="+7 911 111 11 11" Grid.Column="1" Grid.Row="1" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0, 0, 0, 25"/>
+        <Label Content="Приоритетность: 10" Grid.Column="1" Grid.Row="1" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,5"/>
+        <Label Content="10%" Grid.Column="3" Grid.Row="1" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+        
+        <Label Content="Тип | Наименование агента" Grid.Column="1" Grid.Row="2" FontSize="18" HorizontalContentAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,67"/>
+        <Label Content="10 продаж за год" Grid.Column="1" Grid.Row="2" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0, 45"/>
+        <Label Content="+7 911 111 11 11" Grid.Column="1" Grid.Row="2" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,25"/>
+        <Label Content="Приоритетность: 10" Grid.Column="1" Grid.Row="2" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,5"/>
+        <Label Content="10%" Grid.Column="3" Grid.Row="2" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+        
+        <Label Content="Тип | Наименование агента" Grid.Column="1" Grid.Row="3" FontSize="18" HorizontalContentAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,67"/>
+        <Label Content="10 продаж за год" Grid.Column="1" Grid.Row="3" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,45"/>
+        <Label Content="+7 911 111 11 11" Grid.Column="1" Grid.Row="3" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,25"/>
+        <Label Content="Приоритетность: 10" Grid.Column="1" Grid.Row="3" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,5"/>
+        <Label Content="10%" Grid.Column="3" Grid.Row="3" FontSize="18" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+        
+        <TextBox Text="Введите для поиска" Grid.Column="0" Grid.Row="0" FontSize="20" HorizontalContentAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        
+        <ComboBox x:Name="Sortirovka" Grid.Column="2" Grid.Row="0" FontSize="20" SelectedIndex="0" IsEditable="True" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
+            <TextBlock>Сортировка</TextBlock>
+            <TextBlock>Что-то еще</TextBlock>
+        </ComboBox>
+        
+        <ComboBox x:Name="Filtr" Grid.Column="3" Grid.Row="0" FontSize="20" SelectedIndex="0" IsEditable="True" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">
+            <TextBlock>Фильтрация</TextBlock>
+            <TextBlock>Что-то еще</TextBlock>
+        </ComboBox>
+
+        <Image Source="C:\Users\Александр\Desktop\2 поток\Сессия 2\New_image.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="0"/>
+        <Image Source="C:\Users\Александр\Desktop\2 поток\Сессия 2\New_image.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="0"/>
+        <Image Source="C:\Users\Александр\Desktop\2 поток\Сессия 2\New_image.jpg" Stretch="Fill" Grid.Row="3" Grid.Column="0"/>
+    </Grid>
+</Window>

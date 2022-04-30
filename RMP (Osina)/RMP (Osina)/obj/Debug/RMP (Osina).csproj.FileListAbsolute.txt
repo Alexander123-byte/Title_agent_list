@@ -1,0 +1,15 @@
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\bin\Debug\RMP (Osina).exe.config
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\bin\Debug\RMP (Osina).exe
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\bin\Debug\RMP (Osina).pdb
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina).csprojAssemblyReference.cache
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\MainWindow.g.cs
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\App.g.cs
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina)_MarkupCompile.cache
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina)_MarkupCompile.lref
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\MainWindow.baml
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina).g.resources
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP__Osina_.Properties.Resources.resources
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina).csproj.GenerateResource.cache
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina).csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina).exe
+C:\Users\Александр\Desktop\Study\Проекты C#\RMP (Osina)\RMP (Osina)\obj\Debug\RMP (Osina).pdb
